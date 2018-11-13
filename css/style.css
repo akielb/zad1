@@ -1,0 +1,9 @@
+.box {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
