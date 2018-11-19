@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 1fr 700px;
+    }
+
+header {
+    display: grid;
+    background-color: rgb(246, 238, 247);
+    background-size: 100% 100%;
+    height: 1000px;
+    align-content: start;
+}
+.first {
+    display: grid;
+    width: 620px;
+    height: 320px;
+   grid-template-columns: 1fr 1fr;
+    background-image: url("https://cdn.shopify.com/s/files/1/2182/0257/articles/raspberry_milk_shake_7f000185-f078-4f36-985c-63ac48241743.jpg?v=1539625875");
+}
+
+.first nav {
+    width: 520px;
+}
+
+.first nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    font-family: Caveat;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 1%;
+    margin-right: 15%;
+}
+
+.first nav ul li {
+    padding-left: 5px;
+}
+
+.logo {
+    font-size: 15px;
+    width: 100%;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-family: Caudex;
+}
+
+.content {
+    display: grid;
+    align-content: center;
+    height: 100%;
+    margin-left: 100px;
+    margin-bottom: 160px;
+}
+
+.content h1 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.content p {
+    font-family: Caudex;
+    font-weight: inherit;
+    font-size: 15px;
+}
+
+.wrapper {
+    margin: auto;
+}
